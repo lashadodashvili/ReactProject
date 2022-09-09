@@ -1,0 +1,20 @@
+.active {
+    color: #e9edc9;
+}
+
+.navigator ul {
+    display: flex;
+    gap: 50px;
+}
+.navigator li {
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .navigator ul {
+        gap: 20px;
+    }
+    .navigator li {
+        font-size: 22px;
+    }
+}

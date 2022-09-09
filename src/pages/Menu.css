@@ -1,0 +1,64 @@
+.menu {
+    width: '100%';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    background-color: #52796f;
+    padding: 30px;
+
+}
+
+.counter {
+    display: flex;
+    background-color: #52796f;
+    color: wheat;
+}
+
+
+.card {
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #cad2c5;
+    overflow: hidden;
+    align-items: center;
+    padding: 50px 40px;
+}
+
+.card button {
+    overflow: hidden;
+    background-color: #84a98c;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+}
+
+.menu h2 {
+    margin-top: 10px;
+}
+
+.menu h3 {
+    margin-top: 10px;
+}
+
+.menu h4 {
+    font-size: 24px;
+}
+
+.menu h5 {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .menu {
+        grid-template-columns: 1fr;
+
+    }
+}
