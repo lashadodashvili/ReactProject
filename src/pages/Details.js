@@ -17,7 +17,7 @@ export default function Details() {
                 <h2>Name: <span>{details.name}</span></h2>
                 <h3>Price:<span>{details.price}$</span></h3>
                 <h4>Category:<span>{details.category}</span></h4>
-                <button><Link to='/menu'>Back To Menu</Link></button>
+                <button><Link to='/ReactProject/menu'>Back To Menu</Link></button>
             </div>
         </div>
     )

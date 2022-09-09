@@ -28,7 +28,7 @@ export default function Menu() {
             <h2>Name:{item.name}</h2>
             <h3>Price:{item.price}$</h3>
             <button onClick={() => { addtocart(index) }}>add to cart</button>
-            <button><Link to={`/menu/${item.id}`}>Details</Link></button>
+            <button><Link to={`/ReactProject/menu/${item.id}`}>Details</Link></button>
 
           </div>
 

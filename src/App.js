@@ -21,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path='/' >
+          <Route path='/ReactProject/' >
             <Route index element={<Home />}></Route>
             <Route path='contactus' element={<Contactus />}></Route>
             <Route path='menu' element={<Menu />} ></Route>
